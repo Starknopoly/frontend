@@ -1,18 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "game.starknopoly.com"
-        }
-      ],
-      "destination": "/game/:path*"
-    }
-  ]
-}
+  const nextConfig = {
+    reactStrictMode: true,
+    
+  }
 
-
-module.exports = nextConfig
+  module.exports = nextConfig
