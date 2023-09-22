@@ -19,7 +19,7 @@ const Content: NextPage = () => {
       <img
         className="relative w-[812px] h-[448px] object-cover"
         alt=""
-        src="/09201-1@2x.jpg"
+        src="/screenshot.webp"
       />
       <h3 className="m-0 self-stretch relative text-5xl leading-[24px] font-normal font-inter sm:text-xl sm:leading-[24px] sm:text-center">
         A strategic and social fully-onchain monopoly game
